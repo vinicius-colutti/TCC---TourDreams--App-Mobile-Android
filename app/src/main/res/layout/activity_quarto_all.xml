@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="br.com.tourdreams.app.QuartoAllActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:gravity="center">
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:background="@color/colorPrimaryDark"
+        android:textAlignment="center"
+        android:gravity="center"
+        android:textColor="@color/white"
+        android:id="@+id/txt_hotel_modelo"
+        android:text="Quartos disponíveis de hotel tal"
+        android:textSize="20dp"
+        android:layout_marginTop="55dp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <GridView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:numColumns="2"
+        android:id="@+id/gridView">
+    </GridView>
+
+    </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

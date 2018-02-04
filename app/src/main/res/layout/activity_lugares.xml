@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.tourdreams.app.LugaresActivity"
+    android:background="#f1f1f1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        >
+
+        <!--<TextView
+            android:layout_width="match_parent"
+            android:layout_height="100dp"
+            android:text="Separamos os melhores hotéis para você"
+            android:textColor="@android:color/white"
+            android:textSize="30dp"
+            android:textAlignment="center"
+            android:layout_marginBottom="5dp"
+            android:layout_marginTop="110px"
+            android:background="@color/colorPrimary"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:background="@android:color/holo_orange_dark"
+            android:gravity="center"
+            android:textAlignment="center"
+            android:text="PREÇOS IMBATÍVEIS"
+            android:textColor="@android:color/white"
+            android:layout_marginBottom="5dp"/>-->
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_margin="5dp"
+            android:padding="15dp"
+            android:text="Os melhores hotéis para você"
+            android:background="@drawable/shape_blue"
+            android:textAlignment="center"
+            android:textSize="20sp"
+            android:textColor="@color/white"
+            />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape_blue2"
+            android:layout_gravity="center_horizontal"
+            android:textSize="18sp"
+            android:padding="30dp"
+            android:id="@+id/txt_mensagem"
+            android:visibility="visible"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="Nenhum hotel encontrado"
+            />
+
+    </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+
+            <br.com.tourdreams.app.MyListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lst_lugares"
+                android:divider="@color/colorPrimary"
+                android:layout_marginTop="60dp">
+            </br.com.tourdreams.app.MyListView>
+
+        </LinearLayout>
+
+
+
+</LinearLayout>

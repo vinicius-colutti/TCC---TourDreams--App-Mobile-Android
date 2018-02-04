@@ -1,0 +1,90 @@
+<resources>
+    <!-- <string name="app_name">help_TOURDREAMS</string>-->
+    <string name="app_name">TOURDREAMS</string>
+     <string name="navigation_drawer_open">Open navigation drawer</string>
+     <string name="navigation_drawer_close">Close navigation drawer</string>
+     <string name="action_login">Login</string>
+     <string name="title_activity_busca_avancada">BuscaAvancadaActivity</string>
+     <string name="title_activity_login">LoginActivity</string>
+     <string name="title_activity_scrolling">ScrollingActivity</string>
+     <string name="large_text">
+         "Material is the metaphor.\n\n"
+
+         "A material metaphor is the unifying theory of a rationalized space and a system of motion."
+         "The material is grounded in tactile reality, inspired by the study of paper and ink, yet "
+         "technologically advanced and open to imagination and magic.\n"
+         "Surfaces and edges of the material provide visual cues that are grounded in reality. The "
+         "use of familiar tactile attributes helps users quickly understand affordances. Yet the "
+         "flexibility of the material creates new affordances that supercede those in the physical "
+         "world, without breaking the rules of physics.\n"
+         "The fundamentals of light, surface, and movement are key to conveying how objects move, "
+         "interact, and exist in space and in relation to each other. Realistic lighting shows "
+         "seams, divides space, and indicates moving parts.\n\n"
+
+         "Bold, graphic, intentional.\n\n"
+
+         "The foundational elements of print based design typography, grids, space, scale, color, "
+         "and use of imagery guide visual treatments. These elements do far more than please the "
+         "eye. They create hierarchy, meaning, and focus. Deliberate color choices, edge to edge "
+         "imagery, large scale typography, and intentional white space create a bold and graphic "
+         "interface that immerse the user in the experience.\n"
+         "An emphasis on user actions makes core functionality immediately apparent and provides "
+         "waypoints for the user.\n\n"
+
+     </string>
+     <string name="action_settings">Settings</string>
+     <string name="valores">Os valores incidem nas convicções que fundamentam as escolhas por um modo de conduta tanto de um indivíduo quanto em uma organização. Richard Barrett, ex-diretor do Banco Mundial, declara que em uma organização os valores “dizem” e os comportamentos “fazem”.</string>
+     <string name="missao">A missão é tida como o detalhamento da razão de ser da empresa, ou seja, é o porquê da empresa. Na missão, tem-se acentuado o que a empresa produz, sua previsão de conquistas futuras e como espera ser reconhecida pelos clientes e demais stakeholders.</string>
+     <string name="visao">A visão é algo responsável por nortear a organização. É um acumulado de convicções que direcionam sua trajetória. O professor de empreendedorismo Louis Jacques Filion define visão como "a imagem projetada no futuro do espaço de mercado futuro a ser ocupado pelos produtos e o tipo de organização necessária para se alcançar isso".</string>
+     <string name="sobre">A TourDreams é uma empresa para você que pensa em dar um rolê pelo mundo, descobrir novos lugares e amigos, você sempre precisará de um hotel, um lugar para ficar. Deixa que a TourDreams te ajuda, Bora lá??!</string>
+
+     <!-- aula do marcel
+     <string name="abrirReserva">"http://10.107.134.26/inf4t/Andrey/TourDreams/API/abrirQuarto.php"</string>
+     <string name="promocao">"http://10.107.134.26/inf4t/Andrey/TourDreams/API/promocoes.php"</string>
+     <string name="abrirQuarto">"http://10.107.134.26/inf4t/Andrey/TourDreams/API/quarto.php"</string>
+     <string name="endServidor">"http://10.107.134.26/inf4t/Andrey/TourDreams/API/"</string>
+     <string name="imagens">"http://10.107.134.26/inf4t/Andrey/TourDreams/admin/cms/"</string>
+     <string name="caminhoImagem">"http://10.107.134.26/inf4t/Andrey/TourDreams/"</string>-->
+
+    <!--aula do kassiano
+    <string name="abrirReserva">"http://10.107.134.16/20172sem/Andrey/TourDreams/API/abrirQuarto.php"</string>
+    <string name="promocao">"http://10.107.134.16/20172sem/Andrey/TourDreams/API/promocoes.php"</string>
+    <string name="abrirQuarto">"http://10.107.134.16/20172sem/Andrey/TourDreams/API/quarto.php"</string>
+    <string name="imagens">"http://10.107.134.16/20172sem/Andrey/TourDreams/admin/cms/"</string>
+    <string name="endServidor">"http://10.107.134.16/20172sem/Andrey/TourDreams/API/"</string>
+    <string name="caminhoImagem">"http://10.107.134.16/20172sem/Andrey/TourDreams/"</string>-->
+
+    <!-- segunda e quinta-->
+    <string name="abrirReserva">"http://10.107.144.17/inf4t/TourDreams/API/abrirQuarto.php"</string>
+    <string name="promocao">"http://10.107.144.17/inf4t/TourDreams/API/promocoes.php"</string>
+    <string name="abrirQuarto">"http://10.107.144.17/inf4t/TourDreams/API/quarto.php"</string>
+    <string name="imagens">"http://10.107.144.17/inf4t/TourDreams/admin/cms/"</string>
+    <string name="endServidor">"http://10.107.144.17/inf4t/TourDreams/API/"</string>
+    <string name="caminhoImagem">"http://10.107.144.17/inf4t/TourDreams/"</string>
+
+    <!-- servidor
+    <string name="abrirReserva">http://www.tdreamstravels.com.br/API/abrirQuarto.php</string>
+    <string name="promocao">http://www.tdreamstravels.com.br/API/promocoes.php</string>
+    <string name="abrirQuarto">http://www.tdreamstravels.com.br/API/quarto.php</string>
+    <string name="imagens">http://www.tdreamstravels.com.br/API/admin/cms/</string>
+    <string name="endServidor">http://www.tdreamstravels.com.br/API/</string>
+    <string name="caminhoImagem">http://www.tdreamstravels.com.br/</string>-->
+
+    <!-- ip foyer
+     <string name="abrirReserva">"http://10.107.131.12/inf4t/TourDreams/API/abrirQuarto.php"</string>
+     <string name="promocao">"http://10.107.131.12/inf4t/TourDreams/API/promocoes.php"</string>
+     <string name="abrirQuarto">"http://10.107.131.12/inf4t/TourDreams/API/quarto.php"</string>
+     <string name="imagens">"http://10.107.131.12/inf4t/TourDreams/admin/cms/"</string>
+     <string name="endServidor">"http://10.107.131.12/inf4t/TourDreams/API/"</string>
+     <string name="caminhoImagem">"http://10.107.131.12/inf4t/TourDreams/"</string>-->
+
+    <!--casa >
+    <string name="abrirReserva">"http://192.168.1.100/Projetos/TourDreams/API/abrirQuarto.php"</string>
+    <string name="promocao">"http://192.168.1.100/Projetos/TourDreams/API/promocoes.php"</string>
+    <string name="abrirQuarto">"http://192.168.1.100/Projetos/TourDreams/API/quarto.php"</string>
+    <string name="endServidor">"http://192.168.1.100/Projetos/TourDreams/API/</string>
+    <string name="imagens">"http://192.168.1.100/Projetos/TourDreams/admin/cms/"</string>
+    <string name="caminhoImagem">http://192.168.1.100/Projetos/TourDreams/</string>-->
+
+
+</resources>

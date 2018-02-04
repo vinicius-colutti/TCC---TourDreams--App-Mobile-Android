@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:weightSum="1"
+    android:background="#f2f2f2"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="60dp"
+        />
+
+    <include
+        android:layout_marginTop="0dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        layout="@layout/list_view_hotel"/>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/shape"
+        android:layout_margin="5dp"
+        >
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Comentários"
+            android:layout_marginTop="10dp"
+            android:textSize="20dp"
+            android:layout_marginLeft="20dp"/>
+
+        <ImageView
+            android:layout_width="50dp"
+            android:layout_height="40dp"
+            android:src="@drawable/ic_sentiment_very_satisfied_black_24dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="50dp"
+            android:minHeight="50dp"
+            android:maxHeight="200dp"
+            android:text="@string/large_text"
+            android:layout_marginLeft="20dp"
+            android:id="@+id/txtcomentario">
+        </TextView>
+
+        <Button
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:backgroundTint="@android:color/darker_gray"
+            android:layout_gravity="end"
+            android:background="@drawable/ic_more_horiz_black_24dp"/>
+
+    </LinearLayout>
+
+    <View
+        android:layout_width="fill_parent"
+        android:layout_height="2dp"
+        android:layout_marginTop="20dp"
+        android:background="#c3c3c3"
+        android:focusable="false" />
+
+
+</LinearLayout>

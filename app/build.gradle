@@ -1,0 +1,39 @@
+apply plugin: 'com.android.application'
+
+android {
+    compileSdkVersion 26
+    buildToolsVersion "26.0.1"
+    defaultConfig {
+        //applicationId "br.com.tourdreams_help.app"
+        applicationId "br.com.tourdreams.app"
+        minSdkVersion 21
+        targetSdkVersion 26
+        versionCode 1
+        versionName "1.0"
+        testInstrumentationRunner "android.support.test.runner.AndroidJUnitRunner"
+    }
+    buildTypes {
+        release {
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    compile fileTree(include: ['*.jar'], dir: 'libs')
+    compile 'com.android.support:appcompat-v7:26.+'
+    compile 'com.android.support:support-v4:26.+'
+    compile 'com.android.support:design:26.+'
+    compile 'com.android.support.constraint:constraint-layout:1.0.2'
+    compile 'com.squareup.picasso:picasso:2.5.2'
+    compile 'com.google.code.gson:gson:2.2.4'
+    compile 'com.github.bloder:magic:1.1'
+    compile 'com.nightonke:boommenu:1.0.9'
+    compile 'com.github.clans:fab:1.6.4'
+}
+
+
+
+
+

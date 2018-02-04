@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/home"
+            android:icon="@drawable/home"
+            android:title="Home" />
+        <item
+            android:id="@+id/conheca_seu_destino"
+            android:icon="@drawable/ic_visibility_black_24dp"
+            android:title="Conheça seu destino" />
+
+        <item
+            android:id="@+id/faleConosco"
+            android:icon="@drawable/faleconosco"
+            android:title="Fale Conosco" />
+
+        <item
+            android:id="@+id/sobre"
+            android:icon="@drawable/ic_help_black_24dp"
+            android:title="Sobre nós" />
+        <item
+            android:id="@+id/entrar"
+            android:icon="@drawable/ic_face_black_24dp"
+            android:title="Entrar" />
+
+    </group>
+
+</menu>

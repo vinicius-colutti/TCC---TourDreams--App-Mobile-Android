@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+        <item
+            android:id="@+id/facebook"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/facebook"
+            android:title="F"
+            />
+        <item
+            android:id="@+id/instagram"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/instagram"
+            android:title="I" />
+
+        <item
+            android:id="@+id/twitter"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/twitter"
+            android:title="T" />
+
+        <item
+            android:id="@+id/youtube"
+            android:orderInCategory="100"
+            app:showAsAction="always"
+            android:icon="@drawable/youtube"
+            android:title="Y" />
+
+
+</menu>

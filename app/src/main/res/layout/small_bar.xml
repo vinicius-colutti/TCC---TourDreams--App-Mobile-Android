@@ -1,0 +1,23 @@
+<android.support.v7.widget.Toolbar
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="30dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_alignParentBottom="true"
+    android:background="@color/colorPrimary"
+    android:id="@+id/small"
+    android:elevation="4dp"
+    app:theme="@style/AppThemeBottom">
+
+    <Button
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:id="@+id/btn_filtro"
+        android:onClick="btn_filtro_sheet"
+        android:background="@drawable/filtro"
+        android:layout_gravity="end"
+        android:layout_marginRight="15dp"
+        />
+
+    </android.support.v7.widget.Toolbar>

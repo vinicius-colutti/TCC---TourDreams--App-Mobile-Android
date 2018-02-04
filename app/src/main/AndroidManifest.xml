@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="br.com.tourdreams.app">
+
+    <uses-permission android:name="android.permission.CAMERA" />
+
+    <uses-feature android:name="android.hardware.camera" />
+    <uses-permission android:name="android.permission.CALL_PHONE"></uses-permission>
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity
+            android:name=".MainActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".Splashscreen"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+
+        <activity
+            android:name=".BuscaAvancadaActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginParceiroActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".LoginActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".CadastrarUserActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".opActivity" />
+        <activity
+            android:name=".QuartoAllActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".FaleConoscoActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity android:name=".ReservaActivity" />
+        <activity
+            android:name=".SobreActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".PerfilActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".Chat"
+            android:parentActivityName=".PerfilActivity"
+            android:theme="@style/AppTheme.NoActionBar">
+            <meta-data
+                android:name="android.support.PARENT_ACTIVITY"
+                android:value="br.com.tourdreams.app.PerfilActivity" />
+        </activity>
+        <activity android:name=".PerfilParceiroActivity" />
+        <activity android:name=".ConhecaSeuDestinoActivity" />
+        <activity
+            android:name=".LugaresActivity"
+            android:theme="@style/AppTheme.NoActionBar" />
+    </application>
+
+</manifest>

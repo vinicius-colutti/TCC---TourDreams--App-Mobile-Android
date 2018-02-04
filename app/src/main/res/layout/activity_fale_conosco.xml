@@ -1,0 +1,104 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="#f2f2f2"
+    >
+
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center" android:id="@+id/linear"
+            android:layout_marginTop="0dp"
+            >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_bar"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:layout_marginBottom="20dp"
+                android:padding="15dp"
+                >
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="Informe seus dados e nos envie um feedback construtivo, obrigado!"
+                    android:textAlignment="center"
+                    android:textSize="20sp"
+                    />
+
+            </LinearLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Nome"
+            android:layout_margin="25dp"
+            android:id="@+id/txt_nome_faleconosco"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="E-mail"
+            android:layout_margin="25dp"
+            android:id="@+id/txt_email_faleconosco"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <android.support.design.widget.TextInputLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:hint="Sugestão/Critica"
+            android:layout_margin="25dp"
+            android:id="@+id/txt_sugestoes_faleconosco"
+            />
+
+    </android.support.design.widget.TextInputLayout>
+
+    <Button
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:textSize="18dp"
+        android:background="@drawable/shape_blue"
+        android:layout_gravity="center_horizontal|center_vertical"
+        android:layout_marginTop="30dp"
+        android:text="Enviar"
+        android:textColor="#fff"
+        />
+
+        </LinearLayout>
+
+
+    </ScrollView>
+    <include
+        android:id="@+id/inc_tb_bottom"
+        layout="@layout/toolbar_bottom"/>
+
+</RelativeLayout>

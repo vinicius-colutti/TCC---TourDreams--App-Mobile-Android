@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_marginLeft="@dimen/activity_vertical_margin"
+    android:layout_marginRight="@dimen/activity_horizontal_margin"
+    tools:context="br.com.tourdreams.app.CadastrarUserActivity"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:scrollbarAlwaysDrawHorizontalTrack="true"
+        >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Preecha esse rápido formulário!"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:padding="10dp"
+            android:textSize="10pt"
+            android:layout_marginBottom="5dp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+
+            />
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="Nome"
+                android:textSize="9pt"
+                android:id="@+id/txt_nome_cadastro"
+
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="email"
+                android:id="@+id/txt_email_cadastro"
+                android:inputType="textEmailAddress"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="Telefone"
+                android:id="@+id/txt_telefone_cadastro"
+                android:inputType="phone"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="Celular"
+                android:id="@+id/txt_celular_cadastro"
+                android:inputType="phone"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="CPF"
+                android:id="@+id/txt_cpf_cadastro"
+                android:inputType="number"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="RG"
+                android:id="@+id/txt_rg_cadastro"
+                android:inputType="number"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <EditText
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/shape"
+                android:hint="Senha"
+                android:inputType="textPassword"
+                android:id="@+id/txt_senha_cadastro"
+                />
+
+        </android.support.design.widget.TextInputLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_marginTop="30dp"
+            >
+
+
+            <ImageView
+                android:layout_gravity="center_horizontal"
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:layout_marginLeft="0dp"
+                android:id="@+id/img_upload"/>
+
+            <Button
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnUpload"
+                android:onClick="abrirGaleria"
+                android:text="inserir imagem"
+                android:layout_marginLeft="70dp"
+                android:background="@drawable/shape_blue"
+                android:textColor="#fff"
+                />
+
+
+        </LinearLayout>
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/btnSave"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="bottom|end"
+            android:layout_marginTop="-50dp"
+            android:layout_margin="@dimen/fab_margin"
+            app:srcCompat="@drawable/ic_check_circle_white_24dp"
+            app:backgroundTint="@color/botaoSalvar"/>
+    </LinearLayout>
+
+</ScrollView>

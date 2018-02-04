@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/content_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context="br.com.tourdreams.app.MainActivity"
+    android:background="#f2f2f2"
+    >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_marginTop="0px"
+            >
+
+          <!-- <android.support.v4.view.ViewPager
+                android:id="@+id/banner_promocao"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+                android:layout_marginTop="60dp"
+                android:scaleType="fitXY"
+                >
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:id="@+id/sliderDots"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/banner_promocao"
+                android:layout_gravity="center"
+                android:orientation="horizontal">
+            </LinearLayout>-->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="60dp"
+                android:layout_marginBottom="5dp"
+                android:background="@drawable/shape_blue2"
+                android:padding="15dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Encontre o hotel perfeito para você!"
+                    android:textSize="25sp"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorPrimaryDark"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Realizando reservas você ganhará pontos MTF, não perca tempo!"
+                    android:background="@drawable/shape"
+                    android:padding="15dp"
+                    android:layout_margin="5dp"
+                    />
+
+            </LinearLayout>
+
+            <br.com.tourdreams.app.MyListView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/lst_main"
+                android:divider="@color/colorPrimary">
+
+            </br.com.tourdreams.app.MyListView>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape_blue"
+                android:padding="15dp"
+                android:layout_margin="5dp"
+                >
+
+                <ImageView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:src="@mipmap/ic_launcher"
+                    />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="www.tdreamstravels.com"
+                    android:layout_gravity="center"
+                    android:layout_marginLeft="30dp"
+                    android:textSize="20sp"
+                    android:textColor="#fff"
+                    />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+</FrameLayout>

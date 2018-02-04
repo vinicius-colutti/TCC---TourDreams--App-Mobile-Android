@@ -1,0 +1,296 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f1f1"
+    >
+
+    <android.support.design.widget.CollapsingToolbarLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+    <ScrollView
+        xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            >
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            >
+
+            <android.support.v4.view.ViewPager
+                android:layout_width="match_parent"
+                android:layout_height="200dp"
+                android:layout_marginTop="0dp"
+                android:id="@+id/slide_quartos"
+                android:scaleType="centerInside"
+                android:adjustViewBounds="true"
+                >
+
+            </android.support.v4.view.ViewPager>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/sliderDots"
+                android:orientation="horizontal"
+                android:layout_below="@+id/slide_quartos"
+                android:layout_gravity="center"
+                android:layout_marginTop="90dp">
+
+            </LinearLayout>
+
+
+
+        </FrameLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/txt_nome_do_hotel"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"
+                android:textAlignment="center"
+                android:text="HOTEL HOLY:"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:orientation="vertical"
+                android:background="@drawable/shape"/>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:layout_gravity="center"
+                android:layout_marginTop="10dp"
+                android:layout_marginBottom="0dp"
+                android:layout_marginLeft="10dp"
+                android:layout_margin="5dp"
+                android:padding="15dp"
+                android:background="@drawable/shape"
+                >
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txt_nome_quarto"
+                    android:text="Quarto: Quarto holy "
+                    android:textSize="20dp"
+                    android:layout_marginLeft="30dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_weight="1"
+                    android:layout_height="match_parent"
+                    android:id="@+id/txt_preco_reserva"
+                    android:textColor="@color/colorPrimary"
+                    android:text="Diária"
+                    android:textSize="20dp"/>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginBottom="20dp"
+                android:layout_marginTop="10dp">
+
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:id="@+id/txt_caracteristicas"
+                        android:backgroundTint="@color/colorPrimaryDark"
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="vertical"
+                android:layout_gravity="center"
+                android:layout_marginTop="-45dp"
+                android:id="@+id/linear_reserva">
+
+                <ListView
+                    android:id="@+id/lst_caract"
+                    android:layout_width="match_parent"
+                    android:layout_height="150dp"
+                    android:layout_marginBottom="20dp"
+                    android:divider="@android:color/holo_blue_dark"
+                    android:layout_margin="5dp"
+                    android:padding="15dp"
+                    android:orientation="vertical"
+                    android:background="@drawable/shape"
+                    >
+
+                </ListView>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/data"
+                        android:layout_width="170dp"
+                        android:layout_height="wrap_content"
+                        android:hint="Check In "
+                        android:onClick="entrada"
+                        android:padding="10dp"
+                        android:textSize="18sp"
+                        android:layout_marginRight="40dp"
+                        android:layout_margin="5dp"
+                        android:orientation="vertical"
+                        android:textColor="@color/colorPrimary"
+                        android:background="@drawable/shape"/>
+
+                     <TextView
+                         android:id="@+id/data2"
+                         android:layout_width="170dp"
+                         android:layout_height="wrap_content"
+                         android:hint="Check Out "
+                         android:onClick="saida"
+                         android:padding="10dp"
+                         android:textSize="18sp"
+                         android:layout_marginRight="40dp"
+                         android:layout_margin="5dp"
+                         android:orientation="vertical"
+                         android:textColor="@color/colorPrimary"
+                         android:background="@drawable/shape"/>
+
+            </LinearLayout>
+                <br.com.bloder.magic.view.MagicButton
+                    android:id="@+id/chat_magic"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="end"
+                    app:button_icon="@drawable/ic_phone_black_24dp"
+                    app:button_icon_height="28dp"
+                    app:button_icon_width="28dp"
+                    app:expandable_area_color="@color/colorPrimary"
+                    app:hide_text="Ligar"
+                    app:hide_text_color="#fff"
+                    app:hide_text_size="6sp"
+                    app:magic_button_size="53dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginRight="10dp" />
+            </LinearLayout>
+
+
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical"
+            android:layout_gravity="center"
+            android:id="@+id/linear_reserva_finalizar"
+            android:layout_marginTop="30dp"
+                android:visibility="gone">
+
+                <br.com.bloder.magic.view.MagicButton
+                android:id="@+id/conheca_seu_destino_magic"
+                android:layout_height="wrap_content"
+                android:layout_width="wrap_content"
+                app:magic_button_size="60dp"
+                android:layout_gravity="end"
+                app:button_icon="@drawable/ic_location_city_black_24dp"
+                app:button_icon_width="40dp"
+                app:button_icon_height="40dp"
+                app:hide_text="Lugares para visitar"
+                app:hide_text_size="10dp"
+                app:hide_text_color="#000"
+                android:layout_marginBottom="10dp"
+                app:icon_button_color="@color/colorPrimaryDark"
+                app:expandable_area_color="@android:color/darker_gray" />
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal">
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Total de dias: 3"
+                android:id="@+id/total_dias"/>
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:textSize="18dp"
+                android:text="Valor final: R$ 1350,00"
+                android:id="@+id/total_valor"/>
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginTop="55dp"
+                android:text="Obrigada por nos escolher!"
+                android:textSize="20dp"/>
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Acompanhe tudo no seu perfil"
+                android:textColor="@color/colorPrimary"
+                android:textSize="20dp"/>
+
+
+        </LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginTop="15dp"
+                android:textAlignment="center"
+                android:background="@color/colorPrimary"
+                android:textColor="#fff"
+                android:text="Com essa reserva seus pontos vão para xxx!! Aproveite!! quanto mais você, compra mais voce ganha!"
+                android:layout_marginBottom="2dp"/>
+
+            <Button
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:id="@+id/btn_reservar"
+                android:onClick="reservar"
+                android:textColor="#fff"
+                android:text="RESERVAR"
+                android:textSize="10pt"
+                android:background="@color/colorPrimary"
+                />
+        </LinearLayout>
+
+        </LinearLayout>
+
+    </ScrollView>
+    </android.support.design.widget.CollapsingToolbarLayout>
+
+</LinearLayout>

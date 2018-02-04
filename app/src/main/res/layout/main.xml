@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#f1f1f1"
+    >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:padding="15dp"
+        android:orientation="vertical"
+        android:background="@drawable/shape_bar"
+        >
+
+        <ImageView
+            android:id="@+id/img_hotel"
+            android:layout_width="match_parent"
+            android:layout_marginTop="5px"
+            android:layout_height="325px"
+            android:scaleType="fitXY"
+            />
+
+        <TextView
+            android:id="@+id/txt_sobreposto"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:elevation="@dimen/activity_vertical_margin"
+            android:textSize="25dp"
+            android:text="teste"
+            android:textColor="@color/colorPrimary"
+            android:layout_marginTop="3dp"
+            android:layout_marginLeft="0dp"
+
+            />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Reserve já um hotel com essa categoria"
+            android:layout_marginTop="2dp"
+            />
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginTop="-25dp"
+            android:src="@drawable/verhoteis"
+            android:layout_gravity="end"
+            android:alpha="0.3"
+            />
+
+
+    </LinearLayout>
+
+</FrameLayout>
+

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:elevation="3dp"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:id="@+id/rv_sheet_dialog">
+
+    <GridView
+        android:layout_width="770px"
+        android:layout_height="match_parent"
+        android:id="@+id/gv_sheet"
+        android:background="#f2f2f2"
+        android:numColumns="1">
+    </GridView>
+
+
+    <Button
+        android:layout_width="300px"
+        android:layout_height="50dp"
+        android:textAlignment="center"
+        android:backgroundTint="@color/colorPrimary"
+        android:textColor="#fff"
+        android:layout_gravity="end|bottom"
+        android:text="Aplicar"
+        android:textSize="12dp"/>
+
+</FrameLayout>

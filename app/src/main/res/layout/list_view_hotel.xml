@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:orientation="vertical"
+    xmlns:fab="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="200dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_marginTop="40dp"
+    android:background="#f2f2f2"
+    >
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="15dp"
+            android:layout_margin="5dp"
+            android:background="@drawable/shape"
+            >
+
+            <ImageView
+                android:id="@+id/img_hotel"
+                android:layout_width="180dp"
+                android:layout_height="130dp"
+                android:src="@drawable/quarto" />
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:orientation="vertical"
+                android:layout_marginLeft="@dimen/activity_horizontal_margin"
+                android:layout_marginRight="@dimen/activity_vertical_margin">
+
+                <TextView
+                    android:id="@+id/txt_nomee_hotel"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:text=" HOTEL tal "
+                    android:textColor="@color/colorPrimary"
+                    android:layout_marginTop="5dp"/>
+                <ImageView
+                    android:layout_width="100dp"
+                    android:layout_gravity="center"
+                    android:layout_height="20dp"
+                    android:src="@drawable/estrelas"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="São Paulo"
+                android:id="@+id/txt_local_hotel"
+                android:layout_marginTop="5dp" />
+
+            <TextView
+                android:id="@+id/txt_preco_hotel"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:text="Dirias a partir de: R$ 200"
+                android:textColor="@color/colorPrimary"
+                android:layout_marginTop="5dp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_marginRight="20dp"
+            android:layout_marginTop="-40dp"
+            android:src="@drawable/verhoteis"
+            android:layout_gravity="end"
+            android:alpha="0.3"
+            />
+
+       <!-- <br.com.bloder.magic.view.MagicButton
+            android:id="@+id/chat_usuario"
+            android:layout_height="wrap_content"
+            android:layout_width="wrap_content"
+            android:layout_gravity="end"
+            android:layout_marginTop="-50dp"
+            app:magic_button_size="50dp"
+            app:button_icon="@drawable/ic_message_black_24dp"
+            app:button_icon_width="25dp"
+            app:button_icon_height="25dp"
+            app:hide_text="Entre em contato"
+            app:hide_text_size="5dp"
+            app:hide_text_color="#000"
+            app:icon_button_color="@android:color/darker_gray"
+            app:expandable_area_color="@color/colorPrimaryDark"
+            />-->
+</LinearLayout>
+

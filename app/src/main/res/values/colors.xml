@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5270ff</color>
+    <color name="colorPrimaryDark">#2d51f9</color>
+    <color name="colorAccent">#96a6f5</color>
+    <color name="botaoBusca">#fff</color>
+    <color name="botaoSalvar">#0dc710</color>
+
+    <color name="pager_bullet_active">#bebebe</color>
+    <color name="pager_bullet_inactive">#000</color>
+    <color name="pager_bullet_text_indicator">#ffffff</color>
+</resources>
